@@ -1,0 +1,19 @@
+{
+  "name": "front_taxi",
+  "version": "1.0.0",
+  "description": "BackOffice ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@geoext/geoext": "^3.2.0",
+    "@terrestris/basigx": "^2.0.2",
+    "axios": "^0.21.1",
+    "compass": "^0.1.1",
+    "g": "^2.0.1",
+    "sass": "^1.50.0"
+  }
+}

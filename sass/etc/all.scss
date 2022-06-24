@@ -1,0 +1,252 @@
+/*
+ * This is is imported by virtue of "sass.etc" in "app.json".
+ */
+@mixin btn-border($background-color) {
+  background-color: $background-color;
+  border-color: $background-color  !important;
+
+  .x-btn-inner-default-toolbar-small {
+    color: $lightest-color;
+  }
+
+  &:hover {
+
+    .x-btn-inner-default-toolbar-small,
+    .x-btn-inner-default-small {
+      color: $background-color;
+    }
+
+    .x-btn-icon-el-default-small,
+    .x-btn-icon-el-default-toolbar-small {
+      color: $background-color;
+    }
+
+    background-color: transparent;
+  }
+}
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+
+@mixin box-shadow($h-shadow, $v-shadow, $blur, $spread, $shadow-color) {
+  $value: $h-shadow,
+  $v-shadow,
+  $blur,
+  $spread,
+  $shadow-color;
+  -webkit-box-shadow: $value;
+  -moz-box-shadow: $value;
+  -ms-box-shadow: $value;
+  box-shadow: $value;
+}
+
+
+@media (max-width:573px) {
+  .labelDashboard {
+    font-size: 40px !important;
+  }
+
+  .iconDashboard {
+    font-size: 4em !important;
+
+  }
+
+}
+
+@media (max-width:505px) {
+  .labelDashboard {
+    font-size: 35px !important;
+  }
+
+  .iconDashboard {
+    font-size: 3em !important;
+
+  }
+}
+
+@media (max-width:400px) {
+  .labelDashboard {
+    font-size: 30px !important;
+    //font-weight: bold;
+  }
+
+  .iconDashboard {
+    font-size: 3em !important;
+
+  }
+}
+.x-treelist-navigation .x-treelist-item-text {
+  font-size: 13px !important;
+}
+
+*:focus {
+  outline: 0 !important;
+}
+
+.x-menu-header {
+  z-index: 0 !important;
+}
+
+.x-css-shadow {
+  box-shadow: none !important;
+}
+
+.x-fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 $font-family;
+}
+
+.alignRight {
+  float: right;
+}
+
+.boldFont {
+  font-weight: bold;
+}
+
+.multiline-row {
+  //float: left;
+  overflow: auto !important;
+  white-space: normal !important;
+  text-overflow: ellipsis;
+  display: block;
+  padding: 0 0 0 10px;
+}
+
+.x-mostrar-x-icon-conectado {
+  width: 16px;
+  height: 16px;
+  background-image: url(images/conectado.png) !important;
+}
+
+.x-mostrar-x-icon-desconectado {
+  width: 16px;
+  height: 16px;
+  background-image: url(images/desconectado.png) !important;
+}
+
+.x-mostrar-x-icon-star {
+  width: 32px;
+  height: 32px;
+  background-image: url(images/star.png);
+  /* !important;*/
+}
+
+
+/*Estilos Estatus grillas*/
+
+.x-status-activo {
+  border-radius: 15px;
+  background-color: #91f199;
+  color: #168a37;
+  text-align: center;
+}
+
+.x-status-inactivo {
+  border-radius: 15px;
+  background-color: #f39c9c;
+  color: #4a0202;
+  text-align: center;
+}
+
+.x-status-tipo-servicio {
+  border-radius: 10px;
+  background-color: #ffe388;
+  color: #B87A04;
+  text-align: center;
+}
+
+.x-status-pagado {
+  border-radius: 5px;
+  background-color: #91f199;
+  color: #168a37;
+  text-align: center;
+  width: 55px;
+  height: 20px;
+}
+
+.x-status-porpagar {
+  border-radius: 5px;
+  background-color: #ffe388;
+  color: #B87A04;
+  text-align: center;
+  width: 70px;
+  height: 20px;
+}
+.x-status-aceptado {
+  border-radius: 15px;
+  background-color: #ffe388;
+  color: #B87A04;
+  text-align: center;
+}
+
+.x-status-enviado {
+  border-radius: 15px;
+  background-color: #06c0ce;
+  color: #0476b8;
+  text-align: center;
+}
+
+.x-status-rechazado {
+  border-radius: 5px;
+  background-color: #f39c9c;
+  color: #4a0202;
+  text-align: center;
+  width: 70px;
+  height: 20px;
+}
+
+
+//Todo: Estilos TimeLine
+.timeline {
+  list-style: none;
+  padding: 10px 0 10px;
+  position: relative;
+}
+
+.timeline:before {
+  top: 45px;
+  bottom: 45px;
+  position: absolute;
+  content: ' ';
+  width: 3px;
+  background-color: #F4F4F4;
+}
+
+.timeline>li {
+  position: relative;
+}
+
+.timeline>li>.timeline-panel {
+  margin-left: 20px;
+  padding: 15px;
+}
+
+.timeline>li>.timeline-badge {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: 16px;
+  margin-left: -4px;
+  color: #094057;
+  font-weight: bold;
+}
+
+.timeline>li>.timeline-badge.hide {
+  display: none;
+}
+
+.timeline>li>.timeline-badge.fa-lightbulb-o {
+  color: #88BB47;
+}
+
+//TODO: Espaciop entre iconos grillas
+.x-action-col-icon {
+  height: 16px;
+  width: 16px;
+  margin-right: 8px;
+}
