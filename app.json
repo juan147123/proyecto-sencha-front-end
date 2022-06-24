@@ -211,10 +211,6 @@
             "bundle": true
         },
         {
-            "path": "tools/Google.js",
-            "bundle": true
-        },
-        {
             "path": "resources/lib/progress/loading-bar.min.js",
             "bundle": true
         }
@@ -298,44 +294,23 @@
         "compressor": {
             "type": "yui"
         },
-        "api": "http://198.211.99.171:8081/api/",
-        "ticket": "http://198.211.99.171:8081/ticket/",
-        "urlimg": "http://isam.devdemoapp.ga:8081/storage/",
-        "ws": "http://198.211.99.171:8083/",
-        "apiKey": "AIzaSyCJU-_5fuUlJKtqCxlgF5RX8imXPXbcGbA",
-        "authDomain": "taxiwaa-9303e.firebaseapp.com",
-        "databaseURL": "https://taxiwaa-9303e-default-rtdb.firebaseio.com",
-        "projectId": "taxiwaa-9303e",
-        "storageBucket": "taxiwaa-9303e.appspot.com",
-        "messagingSenderId": "464273438621",
-        "appId": "1:464273438621:web:33af1b02049acf9ea16174",
-        "measurementId": "G-FT7QC0WG18",
-        "AppName": "iSAM",
-        "msgOk": "Informacion guarda con existo!!",
-        "msgError": "Uff, ocurrio algo puede volver a guardar!,  si persiste llamar a sistemas",
-        "msgFieldVal": "Existe campos que se necesita para el registro que estan vacios o falta seleccionar",
-        "msgCargado": "enviando información, espere ...",
-        "msgUsuarioIncorrecto": "EL usuario es incorrecto",
-        "msgUsuarioExiste": "El usuario  existe en la base de datos",
-        "notiBody": "Se ha asignado una reserva de taxi",
-        "notiTitle": "iSAM",
-        "notiMsg": "Se ha asignado un reserva",
-        "fcmNotReg": "El conductor no tiene codigo de notificacion, ingresar al APP y actualizar su estado",
+        //TAMAÑO DE LA GRILLA
         "gridHeightSales": 800,
         "gridHeightAll": 600,
-        "msgEnvioPedidoAlmacen": "Pedido de reposición guardada con exito",
-        "msgPedidoIngresadoAlmacenLocal": "Pedido de reposición ingresado con exito ",
+        "api": "http://127.0.0.1:8000/api/",
+        "AppName": "TIENDA",
+        "notiTitle": "TIENDA",
         "urlLogo": "resources/images/isam.png",
         "urlLogoColor": "resources/images/isamc.png",
-        "titleBuscarProducto": "Filtro de Producto",
-        "gridHeightDetVenta": 350,
+        //MENSAJES
+        "msgFieldVal": "Existe campos que se necesita para el registro que estan vacios o falta seleccionar",
+        "msgOk": "Informacion guarda con existo!!",
+        "msgError": "Uff, ocurrio algo puede volver a guardar!,  si persiste llamar a sistemas",
         "msgCargando": "... loading",
+        "msgCargado": "enviando información, espere ...",
         "msgEnviando": "Sending ...",
         "msgGrillaVacio": "No existe registros para mostrar",
-        "msgEliminar": "Eliminar el registro seleccionado",
-        "apiFe": "http://198.211.99.171:8082/v1/generardocumento/",
-        "apiResumen": "http://198.211.99.171:8082/v1/generarresumen/",
-        "apiBaja": "http://198.211.99.171:8082/v1/generarcomunicacionbaja/"
+        "msgEliminar": "Eliminar el registro seleccionado"
     },
     /**
      * Settings specific to testing builds.
@@ -348,45 +323,24 @@
         "watch": {
             "delay": 250
         },
-        "api": "http://127.0.0.1:8000/api/",
-        "ticket": "http://127.0.0.1:8000/ticket/",
-        "urlimg": "http://127.0.0.1:8000/storage/",
-        "ws": "http://198.211.99.171:8083/",
-        "apiKey": "AIzaSyCJU-_5fuUlJKtqCxlgF5RX8imXPXbcGbA",
-        "authDomain": "taxiwaa-9303e.firebaseapp.com",
-        "databaseURL": "https://taxiwaa-9303e-default-rtdb.firebaseio.com",
-        "projectId": "taxiwaa-9303e",
-        "storageBucket": "taxiwaa-9303e.appspot.com",
-        "messagingSenderId": "464273438621",
-        "appId": "1:464273438621:web:33af1b02049acf9ea16174",
-        "measurementId": "G-FT7QC0WG18",
-        "AppName": "iSAM",
-        "msgOk": "Informacion guarda con existo!!",
-        "msgError": "Uff, ocurrio algo puede volver a guardar!,  si persiste llamar a sistemas",
-        "msgFieldVal": "Existe campos que se necesita para el registro que estan vacios o falta seleccionar",
-        "msgCargado": "enviando información, espere ...",
-        "msgUsuarioIncorrecto": "EL usuario es incorrecto",
-        "msgUsuarioExiste": "El usuario  existe en la base de datos",
-        "notiBody": "Se ha asignado una reserva de taxi",
-        "notiTitle": "iSAM",
-        "notiMsg": "Se ha asignado un reserva",
-        "fcmNotReg": "El conductor no tiene codigo de notificacion, ingresar al APP y actualizar su estado",
+        //TAMAÑO DE LA GRILLA
         "gridHeightSales": 800,
         "gridHeightAll": 600,
-        "gridHeightAlmacen": 600,
-        "msgEnvioPedidoAlmacen": "Pedido de reposición guardada con exito",
-        "msgPedidoIngresadoAlmacenLocal": "Pedido de reposición ingresado con exito ",
+        
+        "api": "http://127.0.0.1:8000/api/",
+        "AppName": "TIENDA",
+        "notiTitle": "TIENDA",
         "urlLogo": "resources/images/isam.png",
         "urlLogoColor": "resources/images/isamc.png",
-        "titleBuscarProducto": "Filtro de Producto",
-        "gridHeightDetVenta": 350,
+        //MENSAJES
+        "msgFieldVal": "Existe campos que se necesita para el registro que estan vacios o falta seleccionar",
+        "msgOk": "Informacion guarda con existo!!",
+        "msgError": "Uff, ocurrio algo puede volver a guardar!,  si persiste llamar a sistemas",
         "msgCargando": "... loading",
+        "msgCargado": "enviando información, espere ...",
         "msgEnviando": "Sending ...",
         "msgGrillaVacio": "No existe registros para mostrar",
-        "msgEliminar": "Eliminar el registro seleccionado",
-        "apiFe": "http://198.211.99.171:8082/v1/generardocumento/",
-        "apiResumen": "http://198.211.99.171:8082/v1/generarresumen/",
-        "apiBaja": "http://198.211.99.171:8082/v1/generarcomunicacionbaja/"
+        "msgEliminar": "Eliminar el registro seleccionado"
     },
     /**
      * Controls the output structure of development-mode (bootstrap) artifacts. May

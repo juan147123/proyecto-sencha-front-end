@@ -6,7 +6,7 @@ Ext.define('backoffice.view.gasto.RegistroController', {
     },
     onClick_Guardar:function(){
         let formbanco = this.getView().getForm();
-        let store  = tools.Util.getById('dgvGasto').getStore();
+        let store  = tools.Util.getById('dgvGasto').store.data.getAt(0);
         if (!formbanco.isDirty()) {
             tools.Util.setToast("",Ext.manifest.msgFieldVal,1);
             return;
@@ -31,7 +31,6 @@ Ext.define('backoffice.view.gasto.RegistroController', {
             standardSubmit  :false,
             success: function (form, action) {
                 tools.Util.setToast("",Ext.manifest.msgOk,0);
-                store.load();
                 let me = tools.Util.getById('contentPanelGastos');
                 let l  = me.getLayout();
                 l.setActiveItem(0);    

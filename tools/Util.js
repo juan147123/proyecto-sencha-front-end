@@ -636,30 +636,8 @@ Ext.define('tools.Util', {
         return myMask;
     },
 
-    setHeaderAuthArray:function(stores){
-
-        for(let i = 0; i < stores.length; i++){
-            stores[i].getProxy().headers = {
-                'Content-Type': "application/json" ,
-                'Authorization' : tools.Jwt.getBearer(),
-                'IpClient': tools.Jwt.getIpPublic()
-            };
-            stores[i].load();
-
-        }
     
-        return true;    
-    },
 
-    setHeaderAuth:function(stores){
-
-            stores.getProxy().headers = {
-                'Content-Type': "application/json" ,
-                'Authorization' : tools.Jwt.getBearer(),
-                'IpClient': tools.Jwt.getIpPublic()
-            };
-          return stores;   
-    },
     getIpPublic:function(){
         return new Ext.Promise(function (resolve, reject) {
 

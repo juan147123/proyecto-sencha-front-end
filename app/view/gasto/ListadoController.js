@@ -7,12 +7,12 @@ Ext.define('backoffice.view.gasto.ListadoController', {
         let date1 = Ext.Date.format(data1, 'Y-m-d');
         let date2 = Ext.Date.format(data2, 'Y-m-d'); 
 
-        tools.Util.getById('dgvGasto').getStore().load({
+        tools.Util.getById('dgvGasto').store.data.getAt(0);/* .load({
             params : {
                 date1: date1,
                 date2: date2
             }
-        });
+        }); */
 
     },
     onClickNuevo: function (b) {
@@ -46,36 +46,7 @@ Ext.define('backoffice.view.gasto.ListadoController', {
             }
         );
     },
-    onClickExcel: function (b) {
-        let store = tools.Util.getById('dgvGasto').getStore();
-        let gridexcel = Ext.create('Ext.ux.ExportableGrid', {
-            store: store,
-            renderTo: Ext.getBody(),
-            columns: [
-                {
-                    dataIndex: 'date',
-                    header: 'Fecha',
-                    width: 100,
-                    align: 'left',
-                },
-                {
-                    dataIndex: 'description',
-                    header: 'Descripcion',
-                    align: 'left',
-                    width: 400,
-                },
 
-                {
-                    dataIndex: 'amount',
-                    header: 'Monto',
-                    align: 'center',
-                },
-            ]
-        }
-        );
-        gridexcel.export(tools.Util.getGenerateUUID() + 'Gasto');
-        gridexcel.destroy();
-    },
     onClickFiltrarFecha: function (e) {
         let data1 = tools.Util.getById('date1').getValue();
         let data2 = tools.Util.getById('date2').getValue();

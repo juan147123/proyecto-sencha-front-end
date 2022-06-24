@@ -154,7 +154,7 @@ Ext.define('backoffice.view.main.MainController', {
     onMainViewRender: function () {
         // console.log(Ext.data.StoreManager.lookup('stJwt'));
         //if (!window.location.hash) {
-        this.redirectTo("#dashboard");
+        this.redirectTo("#gastos");
         //}
     },
 

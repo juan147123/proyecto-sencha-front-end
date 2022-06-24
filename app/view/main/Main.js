@@ -35,7 +35,7 @@ Ext.define('backoffice.view.main.Main', {
                             xtype: 'component',
                             reference: 'senchaLogo',
                             cls: 'sencha-logo',
-                            html: '<div class="main-logo"><img src=' + Ext.manifest.urlLogo + '>iSAM</div>',
+                            html: '<div class="main-logo"><img src=' + Ext.manifest.urlLogo + '>TIENDA</div>',
                             width: 220
 
                         },
@@ -49,41 +49,6 @@ Ext.define('backoffice.view.main.Main', {
                                 click: 'onToggleNavigationSize'
                             }
                             //handler: 'onToggleNavigationSize'
-                        },
-                        '->',
-                        {
-                            xtype: 'button',
-                            itemId: 'buttonNotification',
-                            margin: 20,
-                            ui: 'header',
-                            cls: 'h-icon',
-                            tpl: empTpl,
-                            menu: {
-                                xtype: 'menu',
-                                floated: false,
-                                style:'font-size:10px',
-                                itemId: 'menuNotification',
-                                docked: 'right',
-                                
-                                items: []
-                            },
-                            listeners: {
-                                afterrender: 'showNotification',
-                                render: 'showRenderNotification'
-                            }
-                        },
-                        {
-                            xtype: 'tbtext',
-                            //text: user.get('email'),
-                            cls: 'top-user-name'
-                        },
-                        {
-                            xtype: 'image',
-                            cls: 'header-right-profile-image',
-                            height: 35,
-                            width: 35,
-                            alt: 'current user image',
-                            src: 'resources/images/profile-icon.png'
                         }
                     ]
                 },
@@ -121,7 +86,7 @@ Ext.define('backoffice.view.main.Main', {
                             },
                             items: [
                                 {
-                                    xtype: 'admindashboard',
+                                    xtype: 'gastos',
                                     routeId: 'dashboardini',
                                     hideMode: 'offset'
                                 }

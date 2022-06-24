@@ -12,149 +12,22 @@ Ext.define('backoffice.Application', {
         }
     },
     models : [
-        'Store',
-        'Business',
-        'Correlative',
-        'DocumentSales',
-        'Client',
-        'TypeContact',
-        'TypeDocument',
-        'Discount',
-        'Supplier',
-        'TypeTax',
-        'Companytype',
-        'Employee',
-        'Rol',
-        'InventoryStatus',
-        'Replacement',
-        'Product',
-        'Category',
-        'Brand',
-        'Color',
-        'Material',
-        'Base',
-        'UseMount',
-        'Index',
-        'Size',
-        'Side',
-        'Type',
-        'Treatment',
-        'Serie',
-        'ProductxTreatment',
-        'MethodPay',
-        'User',
-        'Coin',
-        'Quotation',
-        'Spent',
-        'Sales',
-        'Pagos',
-        'ReplacementDetails',
-        'StateReplacement',
-        'Order'
+        'Spent'
     ],
     views :[
         //TODO: CORE
-        'backoffice.view.seguridad.OlvidoClave',
-        'backoffice.view.dashboard.Dashboard',
-        'backoffice.view.local.Listado',
-        'backoffice.view.local.Contenedor',
-        'backoffice.view.local.Registro',
-        'backoffice.view.login.Login',
-        //'backoffice.view.mapa.Mapa',
-        'backoffice.view.dashboard.GraficoIngresos',
-        'backoffice.view.banco.Contenedor',
-        'backoffice.view.banco.Listado',
-        'backoffice.view.banco.Registro',
-        'backoffice.view.tipodocumento.Contenedor',
-        'backoffice.view.tipodocumento.Listado',
-        'backoffice.view.tipodocumento.Registro',
-        'backoffice.view.estado.Contenedor',
-        'backoffice.view.estado.Listado',
-        'backoffice.view.estado.Registro',
-        //TODO: Ventas:
-        'backoffice.view.venta.Contenedor',
-        'backoffice.view.cotizacion.Contenedor',
-        'backoffice.view.inventario.Contenedor',
-        'backoffice.view.empresa.Contenedor',
-        'backoffice.view.maestros.Contenedor',
-        'backoffice.view.compra.Contenedor',
-        'backoffice.view.contacto.Contenedor',
-        'backoffice.view.usuario.Contenedor',
-        'backoffice.view.maestros.ContenedorSistema',
-        'backoffice.view.producto.Contenedor',
-        'backoffice.view.producto.AgregarTratamiento',
-        'backoffice.view.proveedor.Contenedor',
-        'backoffice.view.proveedor.Pedido',
-        'backoffice.view.contacto.Service',
-        'backoffice.view.gasto.Contenedor',
-        'backoffice.view.contacto.modalCliente',
+
         //FATURACION
-        'backoffice.view.facturacion.Contenedor'
+        'backoffice.view.gasto.Contenedor',
         
     ],
     stores: [
         
      /*  'MarcaModelos',*/
        'NavigationTree',
-       'Static',
-       'Jwt',
-       //TODO: NEw Software
-       'Business',
-       'Store',
-       'TypeDocument',
-       'Correlative',
-       'DocumentSales',
-       'CorrelativeDocumentSales',
-       'Client',
-       'TypeContact',
-       'Discount',
-       'Supplier',
-       'TypeTax',
-       'Employee',
-       'Rol',
-       'InventoryStatus',
-       'Replacement',
-       'Product',
-       'Dashboard',
-       'tmp.ReplacementDetail',
-       'tmp.PedidoTerminadoBifocal',
-       'tmp.PedidoMontura',
-       'tmp.PedidoTerminadoMonoFocalSPH1',
-       'tmp.PedidoTerminadoMonoFocalSPH2',
-       'tmp.PedidoTerminadoMonoFocalCYL',
-       'tmp.PedidoTerminadoMonoSPHCYL1',
-       'tmp.PedidoTerminadoMonoSPHCYL2',
-       "tmp.DetalleFacturacion",
-       'Category',
-       'Brand',
-       'Color',
-       'Material',
-       'Base',
-       'UseMount',
-       'Index',
-       'Size',
-       'Side',
-       'Type',
-       'Treatment',
-       'Serie',
-       'ProductxTreatment',
-       'MethodPay',
-       'User',
-       'Companytype',
-       'Coin',
-       'Quotation',
+     /*   'Static',
+       'Jwt', */
        'Spent',
-       'ProductQuotation',
-       'tmp.DetalleCotizacion',
-       'Sales',
-       'TipoPago',
-       'Pagos',
-       'Ingresos',
-       'ReplacementDetails',
-       'StateReplacement',
-       "TypeTransaction",
-       'Order'
-
        
        
     ],
@@ -172,13 +45,9 @@ Ext.define('backoffice.Application', {
 
         //Development
         axios.defaults.baseURL = Ext.manifest.api;
-        //IP Public Client
-        tools.Util.getIpPublic().then(function (content) {
-            tools.Jwt.setIpPublic(content.data);
-        });
         
-        Ext.create('backoffice.view.login.Login');
-        //Ext.create('backoffice.view.main.Main');
+        /* Ext.create('backoffice.view.login.Login'); */
+        Ext.create('backoffice.view.main.Main');
     },
     onAppUpdate: function () {
         Ext.Msg.confirm('Actualizacion de Aplicación', 'Esta aplicacion tiene una actualizacion, recargar?',

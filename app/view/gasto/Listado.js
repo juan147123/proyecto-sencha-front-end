@@ -118,7 +118,6 @@ Ext.define('backoffice.view.gasto.Listado', {
     _grilla: function () {
 
         let store = tools.Util.getStoreById('stSpent');
-        store = tools.Util.setHeaderAuth(store);
         return {
             xtype: 'panel',
             userCls: 'big-100 small-100',
@@ -130,7 +129,6 @@ Ext.define('backoffice.view.gasto.Listado', {
             height: Ext.manifest.gridHeightAll,
             items: [
                 {
-                    xtype: 'exportablegrid',
                     itemId: 'dgvGasto',
                     flex: 1,
                     viewConfig: {
