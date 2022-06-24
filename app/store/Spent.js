@@ -10,10 +10,10 @@ Ext.define('backoffice.store.Spent', {
     proxy: {
         type: 'rest',
         url: Ext.manifest.api +  'spent',
-   /*      headers: {
+        headers: {
             'Content-Type': "application/json" ,
            // 'Authorization' : tools.Jwt.getBearer()
-        }, */
+        },
         reader: {
             type: 'json',
             rootProperty: 'data',

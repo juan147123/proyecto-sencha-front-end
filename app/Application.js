@@ -12,22 +12,22 @@ Ext.define('backoffice.Application', {
         }
     },
     models : [
-        'Spent'
+        'Spent',
+        'Discount'
     ],
     views :[
         //TODO: CORE
 
         //FATURACION
         'backoffice.view.gasto.Contenedor',
+        'backoffice.view.descuento.Contenedor',
         
     ],
     stores: [
         
-     /*  'MarcaModelos',*/
        'NavigationTree',
-     /*   'Static',
-       'Jwt', */
        'Spent',
+       'Discount',
        
        
     ],

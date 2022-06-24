@@ -17,6 +17,13 @@ Ext.define('backoffice.store.NavigationTree', {
                 viewType: 'gastos',
                 leaf: true
             },
+            {
+                text: 'Descuentos',
+                iconCls: 'x-fa fa-money',
+                rowCls: 'nav-tree-badge', //nav-tree-badge-new',
+                viewType: 'descuento',
+                leaf: true
+            },
         ]
     }//end root
 });
