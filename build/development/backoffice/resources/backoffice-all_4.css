@@ -1,0 +1,687 @@
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2957 */
+.x-tab.x-tab-disabled .x-tab-tab-venta-left-tl,
+.x-tab.x-tab-disabled .x-tab-tab-venta-left-bl,
+.x-tab.x-tab-disabled .x-tab-tab-venta-left-tr,
+.x-tab.x-tab-disabled .x-tab-tab-venta-left-br,
+.x-tab.x-tab-disabled .x-tab-tab-venta-left-tc,
+.x-tab.x-tab-disabled .x-tab-tab-venta-left-bc {
+    background-image: url(images/tab/tab-tab-venta-left-disabled-corners.gif);
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2966 */
+.x-tab.x-tab-disabled .x-tab-tab-venta-left-ml,
+.x-tab.x-tab-disabled .x-tab-tab-venta-left-mr {
+    background-image: url(images/tab/tab-tab-venta-left-disabled-sides.gif);
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2971 */
+.x-tab.x-tab-disabled .x-tab-tab-venta-left-mc {
+    background-repeat: repeat-x;
+    background-image: url(images/tab/tab-tab-venta-left-disabled-fbg.gif);
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2981 */
+.x-tab-tab-venta-tl,
+.x-tab-tab-venta-bl,
+.x-tab-tab-venta-tr,
+.x-tab-tab-venta-br {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF)";
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2991 */
+.x-tab-tab-venta .x-tab-close-btn {
+    top: 0;
+    right: 0;
+    width: 16px;
+    height: 16px;
+    font: 12px/1 FontAwesome;
+    color: #fff;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:126 */
+.x-tab-tab-venta .x-tab-close-btn:before {
+    content: "\f00d";
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/tab/Tab.scss:3001 */
+.x-tab-bar-plain .x-tab-tab-venta .x-tab-close-btn {
+    color: #919191;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/tab/Tab.scss:3013 */
+.x-tab-tab-venta .x-tab-close-btn-over {
+    background-position: -16px 0;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/tab/Tab.scss:3023 */
+.x-tab-tab-venta .x-tab-close-btn-pressed {
+    background-position: -32px 0;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/tab/Tab.scss:3030 */
+.x-tab-tab-venta.x-tab-focus .x-tab-close-btn {
+    color: #fff;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/tab/Tab.scss:3034 */
+.x-tab-bar-plain .x-tab-tab-venta.x-tab-focus .x-tab-close-btn {
+    color: #919191;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/tab/Tab.scss:3044 */
+.x-tab-tab-venta.x-tab-over .x-tab-close-btn {
+    color: #fff;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/tab/Tab.scss:3048 */
+.x-tab-bar-plain .x-tab-tab-venta.x-tab-over .x-tab-close-btn {
+    color: #919191;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/tab/Tab.scss:3058 */
+.x-tab-tab-venta.x-tab-focus.x-tab-over .x-tab-close-btn {
+    color: #fff;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/tab/Tab.scss:3062 */
+.x-tab-bar-plain .x-tab-tab-venta.x-tab-focus.x-tab-over .x-tab-close-btn {
+    color: #919191;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/tab/Tab.scss:3072 */
+.x-tab-tab-venta.x-tab-active .x-tab-close-btn {
+    color: #919191;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/tab/Tab.scss:3102 */
+.x-tab-tab-venta.x-tab-focus.x-tab-active .x-tab-close-btn {
+    color: #919191;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/tab/Tab.scss:3115 */
+.x-tab-tab-venta.x-tab-disabled .x-tab-close-btn {
+    color: #fff;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+    opacity: 0.3;
+    background-position: 0 0;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/tab/Tab.scss:3120 */
+.x-tab-bar-plain .x-tab-tab-venta.x-tab-disabled .x-tab-close-btn {
+    color: #919191;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/tab/Tab.scss:3136 */
+.x-rtl.x-tab-tab-venta .x-tab-close-btn {
+    right: auto;
+    left: 0;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/tab/Tab.scss:3142 */
+.x-tab-closable.x-tab-tab-venta .x-tab-button {
+    padding-right: 16px;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/tab/Tab.scss:3147 */
+.x-rtl.x-tab-closable.x-tab-tab-venta .x-tab-button {
+    padding-right: 0px;
+    padding-left: 16px;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-tab-focus.x-tab-tab-venta-top:before {
+    /*<if slicer>*/
+    display: none;
+    content: "x-slicer:, corners:url(images/tab/tab-tab-venta-top-focus-corners.gif), sides:url(images/tab/tab-tab-venta-top-focus-sides.gif), frame-bg:url(images/tab/tab-tab-venta-top-focus-fbg.gif), frame:10px 10px 10px 10px, stretch:bottom" !important;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-tab-focus.x-tab-tab-venta-right:before {
+    /*<if slicer>*/
+    display: none;
+    content: "x-slicer:, corners:url(images/tab/tab-tab-venta-right-focus-corners.gif), sides:url(images/tab/tab-tab-venta-right-focus-sides.gif), frame-bg:url(images/tab/tab-tab-venta-right-focus-fbg.gif), frame:10px 10px 10px 10px, stretch:left" !important;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-tab-focus.x-tab-tab-venta-bottom:before {
+    /*<if slicer>*/
+    display: none;
+    content: "x-slicer:, corners:url(images/tab/tab-tab-venta-bottom-focus-corners.gif), sides:url(images/tab/tab-tab-venta-bottom-focus-sides.gif), frame-bg:url(images/tab/tab-tab-venta-bottom-focus-fbg.gif), frame:10px 10px 10px 10px, stretch:top" !important;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-tab-focus.x-tab-tab-venta-left:before {
+    /*<if slicer>*/
+    display: none;
+    content: "x-slicer:, corners:url(images/tab/tab-tab-venta-left-focus-corners.gif), sides:url(images/tab/tab-tab-venta-left-focus-sides.gif), frame-bg:url(images/tab/tab-tab-venta-left-focus-fbg.gif), frame:10px 10px 10px 10px, stretch:right" !important;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-tab-over.x-tab-tab-venta-top:before {
+    /*<if slicer>*/
+    display: none;
+    content: "x-slicer:, corners:url(images/tab/tab-tab-venta-top-over-corners.gif), sides:url(images/tab/tab-tab-venta-top-over-sides.gif), frame-bg:url(images/tab/tab-tab-venta-top-over-fbg.gif), frame:10px 10px 10px 10px, stretch:bottom" !important;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-tab-over.x-tab-tab-venta-right:before {
+    /*<if slicer>*/
+    display: none;
+    content: "x-slicer:, corners:url(images/tab/tab-tab-venta-right-over-corners.gif), sides:url(images/tab/tab-tab-venta-right-over-sides.gif), frame-bg:url(images/tab/tab-tab-venta-right-over-fbg.gif), frame:10px 10px 10px 10px, stretch:left" !important;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-tab-over.x-tab-tab-venta-bottom:before {
+    /*<if slicer>*/
+    display: none;
+    content: "x-slicer:, corners:url(images/tab/tab-tab-venta-bottom-over-corners.gif), sides:url(images/tab/tab-tab-venta-bottom-over-sides.gif), frame-bg:url(images/tab/tab-tab-venta-bottom-over-fbg.gif), frame:10px 10px 10px 10px, stretch:top" !important;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-tab-over.x-tab-tab-venta-left:before {
+    /*<if slicer>*/
+    display: none;
+    content: "x-slicer:, corners:url(images/tab/tab-tab-venta-left-over-corners.gif), sides:url(images/tab/tab-tab-venta-left-over-sides.gif), frame-bg:url(images/tab/tab-tab-venta-left-over-fbg.gif), frame:10px 10px 10px 10px, stretch:right" !important;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-tab-active.x-tab-tab-venta-top:before {
+    /*<if slicer>*/
+    display: none;
+    content: "x-slicer:, corners:url(images/tab/tab-tab-venta-top-active-corners.gif), sides:url(images/tab/tab-tab-venta-top-active-sides.gif), frame-bg:url(images/tab/tab-tab-venta-top-active-fbg.gif), frame:10px 10px 10px 10px, stretch:bottom" !important;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-tab-active.x-tab-tab-venta-right:before {
+    /*<if slicer>*/
+    display: none;
+    content: "x-slicer:, corners:url(images/tab/tab-tab-venta-right-active-corners.gif), sides:url(images/tab/tab-tab-venta-right-active-sides.gif), frame-bg:url(images/tab/tab-tab-venta-right-active-fbg.gif), frame:10px 10px 10px 10px, stretch:left" !important;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-tab-active.x-tab-tab-venta-bottom:before {
+    /*<if slicer>*/
+    display: none;
+    content: "x-slicer:, corners:url(images/tab/tab-tab-venta-bottom-active-corners.gif), sides:url(images/tab/tab-tab-venta-bottom-active-sides.gif), frame-bg:url(images/tab/tab-tab-venta-bottom-active-fbg.gif), frame:10px 10px 10px 10px, stretch:top" !important;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-tab-active.x-tab-tab-venta-left:before {
+    /*<if slicer>*/
+    display: none;
+    content: "x-slicer:, corners:url(images/tab/tab-tab-venta-left-active-corners.gif), sides:url(images/tab/tab-tab-venta-left-active-sides.gif), frame-bg:url(images/tab/tab-tab-venta-left-active-fbg.gif), frame:10px 10px 10px 10px, stretch:right" !important;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-tab-focus.x-tab-over.x-tab-tab-venta-top:before {
+    /*<if slicer>*/
+    display: none;
+    content: "x-slicer:, corners:url(images/tab/tab-tab-venta-top-focus-over-corners.gif), sides:url(images/tab/tab-tab-venta-top-focus-over-sides.gif), frame-bg:url(images/tab/tab-tab-venta-top-focus-over-fbg.gif), frame:10px 10px 10px 10px, stretch:bottom" !important;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-tab-focus.x-tab-over.x-tab-tab-venta-right:before {
+    /*<if slicer>*/
+    display: none;
+    content: "x-slicer:, corners:url(images/tab/tab-tab-venta-right-focus-over-corners.gif), sides:url(images/tab/tab-tab-venta-right-focus-over-sides.gif), frame-bg:url(images/tab/tab-tab-venta-right-focus-over-fbg.gif), frame:10px 10px 10px 10px, stretch:left" !important;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-tab-focus.x-tab-over.x-tab-tab-venta-bottom:before {
+    /*<if slicer>*/
+    display: none;
+    content: "x-slicer:, corners:url(images/tab/tab-tab-venta-bottom-focus-over-corners.gif), sides:url(images/tab/tab-tab-venta-bottom-focus-over-sides.gif), frame-bg:url(images/tab/tab-tab-venta-bottom-focus-over-fbg.gif), frame:10px 10px 10px 10px, stretch:top" !important;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-tab-focus.x-tab-over.x-tab-tab-venta-left:before {
+    /*<if slicer>*/
+    display: none;
+    content: "x-slicer:, corners:url(images/tab/tab-tab-venta-left-focus-over-corners.gif), sides:url(images/tab/tab-tab-venta-left-focus-over-sides.gif), frame-bg:url(images/tab/tab-tab-venta-left-focus-over-fbg.gif), frame:10px 10px 10px 10px, stretch:right" !important;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-tab-focus.x-tab-active.x-tab-tab-venta-top:before {
+    /*<if slicer>*/
+    display: none;
+    content: "x-slicer:, corners:url(images/tab/tab-tab-venta-top-focus-active-corners.gif), sides:url(images/tab/tab-tab-venta-top-focus-active-sides.gif), frame-bg:url(images/tab/tab-tab-venta-top-focus-active-fbg.gif), frame:10px 10px 10px 10px, stretch:bottom" !important;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-tab-focus.x-tab-active.x-tab-tab-venta-right:before {
+    /*<if slicer>*/
+    display: none;
+    content: "x-slicer:, corners:url(images/tab/tab-tab-venta-right-focus-active-corners.gif), sides:url(images/tab/tab-tab-venta-right-focus-active-sides.gif), frame-bg:url(images/tab/tab-tab-venta-right-focus-active-fbg.gif), frame:10px 10px 10px 10px, stretch:left" !important;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-tab-focus.x-tab-active.x-tab-tab-venta-bottom:before {
+    /*<if slicer>*/
+    display: none;
+    content: "x-slicer:, corners:url(images/tab/tab-tab-venta-bottom-focus-active-corners.gif), sides:url(images/tab/tab-tab-venta-bottom-focus-active-sides.gif), frame-bg:url(images/tab/tab-tab-venta-bottom-focus-active-fbg.gif), frame:10px 10px 10px 10px, stretch:top" !important;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-tab-focus.x-tab-active.x-tab-tab-venta-left:before {
+    /*<if slicer>*/
+    display: none;
+    content: "x-slicer:, corners:url(images/tab/tab-tab-venta-left-focus-active-corners.gif), sides:url(images/tab/tab-tab-venta-left-focus-active-sides.gif), frame-bg:url(images/tab/tab-tab-venta-left-focus-active-fbg.gif), frame:10px 10px 10px 10px, stretch:right" !important;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-tab-disabled.x-tab-tab-venta-top:before {
+    /*<if slicer>*/
+    display: none;
+    content: "x-slicer:, corners:url(images/tab/tab-tab-venta-top-disabled-corners.gif), sides:url(images/tab/tab-tab-venta-top-disabled-sides.gif), frame-bg:url(images/tab/tab-tab-venta-top-disabled-fbg.gif), frame:10px 10px 10px 10px, stretch:bottom" !important;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-tab-disabled.x-tab-tab-venta-right:before {
+    /*<if slicer>*/
+    display: none;
+    content: "x-slicer:, corners:url(images/tab/tab-tab-venta-right-disabled-corners.gif), sides:url(images/tab/tab-tab-venta-right-disabled-sides.gif), frame-bg:url(images/tab/tab-tab-venta-right-disabled-fbg.gif), frame:10px 10px 10px 10px, stretch:left" !important;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-tab-disabled.x-tab-tab-venta-bottom:before {
+    /*<if slicer>*/
+    display: none;
+    content: "x-slicer:, corners:url(images/tab/tab-tab-venta-bottom-disabled-corners.gif), sides:url(images/tab/tab-tab-venta-bottom-disabled-sides.gif), frame-bg:url(images/tab/tab-tab-venta-bottom-disabled-fbg.gif), frame:10px 10px 10px 10px, stretch:top" !important;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-tab-disabled.x-tab-tab-venta-left:before {
+    /*<if slicer>*/
+    display: none;
+    content: "x-slicer:, corners:url(images/tab/tab-tab-venta-left-disabled-corners.gif), sides:url(images/tab/tab-tab-venta-left-disabled-sides.gif), frame-bg:url(images/tab/tab-tab-venta-left-disabled-fbg.gif), frame:10px 10px 10px 10px, stretch:right" !important;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/tab/Bar.scss:168 */
+.x-tab-bar-tab-venta {
+    background-color: #ff5252;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/tab/Bar.scss:207 */
+.x-tab-bar-tab-venta-top > .x-tab-bar-body-tab-venta {
+    padding: 8px 4px 0 8px;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/tab/Bar.scss:211 */
+.x-tab-bar-tab-venta-bottom > .x-tab-bar-body-tab-venta {
+    padding: 0 4px 8px 8px;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/tab/Bar.scss:215 */
+.x-tab-bar-tab-venta-left > .x-tab-bar-body-tab-venta {
+    padding: 4px 0 8px 8px;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/tab/Bar.scss:220 */
+.x-rtl.x-tab-bar-tab-venta-left > .x-tab-bar-body-tab-venta {
+    padding: 4px 8px 8px 0;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/tab/Bar.scss:225 */
+.x-tab-bar-tab-venta-right > .x-tab-bar-body-tab-venta {
+    padding: 8px 8px 4px 0;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/tab/Bar.scss:230 */
+.x-rtl.x-tab-bar-tab-venta-right > .x-tab-bar-body-tab-venta {
+    padding: 8px 0 4px 8px;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/tab/Bar.scss:238 */
+.x-tab-bar-plain.x-tab-bar-tab-venta-top > .x-tab-bar-body-tab-venta {
+    padding: 8px 0 0;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/tab/Bar.scss:242 */
+.x-tab-bar-plain.x-tab-bar-tab-venta-bottom > .x-tab-bar-body-tab-venta {
+    padding: 0 0 8px 0;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/tab/Bar.scss:246 */
+.x-tab-bar-plain.x-tab-bar-tab-venta-left > .x-tab-bar-body-tab-venta {
+    padding: 0 0 0 8px;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/tab/Bar.scss:251 */
+.x-rtl.x-tab-bar-plain.x-tab-bar-tab-venta-left > .x-tab-bar-body-tab-venta {
+    padding: 0 8px 0 0;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/tab/Bar.scss:256 */
+.x-tab-bar-plain.x-tab-bar-tab-venta-right > .x-tab-bar-body-tab-venta {
+    padding: 0 8px 0 0;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/tab/Bar.scss:261 */
+.x-rtl.x-tab-bar-plain.x-tab-bar-tab-venta-right > .x-tab-bar-body-tab-venta {
+    padding: 0 0 0 8px;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/tab/Bar.scss:269 */
+.x-tab-bar-plain.x-tab-bar-tab-venta-horizontal {
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-left-width: 0;
+    border-right-width: 0;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/tab/Bar.scss:276 */
+.x-tab-bar-plain.x-tab-bar-tab-venta-vertical {
+    border-right-color: transparent;
+    border-left-color: transparent;
+    border-top-width: 0;
+    border-bottom-width: 0;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/tab/Bar.scss:390 */
+.x-tab-bar-horizontal > .x-tab-bar-body-tab-venta {
+    min-height: 44px;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/tab/Bar.scss:393 */
+.x-ie8m .x-tab-bar-horizontal > .x-tab-bar-body-tab-venta {
+    min-height: 36px;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/tab/Bar.scss:400 */
+.x-tab-bar-vertical > .x-tab-bar-body-tab-venta {
+    min-width: 44px;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/tab/Bar.scss:403 */
+.x-ie8m .x-tab-bar-vertical > .x-tab-bar-body-tab-venta {
+    min-width: 36px;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/layout/container/Box.scss:170 */
+.x-tab-bar-tab-venta-scroller .x-box-scroller-body-horizontal {
+    margin-left: 16px;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/layout/container/Box.scss:175 */
+.x-tab-bar-tab-venta-scroller.x-rtl .x-box-scroller-body-horizontal {
+    margin-left: 0;
+    margin-right: 16px;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/layout/container/Box.scss:183 */
+.x-tab-bar-tab-venta-vertical-scroller .x-box-scroller-body-vertical {
+    margin-top: 16px;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/layout/container/Box.scss:188 */
+.x-box-scroller-tab-bar-tab-venta {
+    cursor: pointer;
+    color: #fff;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    opacity: 0.5;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/layout/container/Box.scss:198 */
+.x-box-scroller-tab-bar-tab-venta.x-box-scroller-hover {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+    opacity: 0.6;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/layout/container/Box.scss:204 */
+.x-box-scroller-tab-bar-tab-venta.x-box-scroller-pressed {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+    opacity: 0.7;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/layout/container/Box.scss:210 */
+.x-box-scroller-tab-bar-tab-venta.x-box-scroller-disabled {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=25)";
+    opacity: 0.25;
+    cursor: default;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/layout/container/Box.scss:220 */
+.x-box-scroller-tab-bar-tab-venta.x-box-scroller-left,
+.x-box-scroller-tab-bar-tab-venta.x-box-scroller-right {
+    width: 24px;
+    height: 24px;
+    top: 50%;
+    margin-top: -12px;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/layout/container/Box.scss:247 */
+.x-box-scroller-tab-bar-tab-venta.x-box-scroller-left {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    font: 16px/24px FontAwesome;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:126 */
+.x-box-scroller-tab-bar-tab-venta.x-box-scroller-left:before {
+    content: "\f053";
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/layout/container/Box.scss:272 */
+.x-box-scroller-tab-bar-tab-venta.x-box-scroller-right {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    font: 16px/24px FontAwesome;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:126 */
+.x-box-scroller-tab-bar-tab-venta.x-box-scroller-right:before {
+    content: "\f054";
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/layout/container/Box.scss:299 */
+.x-box-scroller-tab-bar-tab-venta.x-box-scroller-top,
+.x-box-scroller-tab-bar-tab-venta.x-box-scroller-bottom {
+    height: 24px;
+    width: 24px;
+    left: 50%;
+    margin-left: -12px;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/layout/container/Box.scss:326 */
+.x-box-scroller-tab-bar-tab-venta.x-box-scroller-top {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    font: 16px/24px FontAwesome;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:126 */
+.x-box-scroller-tab-bar-tab-venta.x-box-scroller-top:before {
+    content: "\f077";
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/layout/container/Box.scss:351 */
+.x-box-scroller-tab-bar-tab-venta.x-box-scroller-bottom {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    font: 16px/24px FontAwesome;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:126 */
+.x-box-scroller-tab-bar-tab-venta.x-box-scroller-bottom:before {
+    content: "\f078";
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/tab/Bar.scss:483 */
+.x-tab-bar-more-icon {
+    font: 16px/1 FontAwesome;
+    color: #f0f0f0;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:126 */
+.x-tab-bar-more-icon:before {
+    content: "\f0c9";
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/tab/Bar.scss:500 */
+.x-tab-bar-plain.x-tab-bar-tab-venta-scroller .x-box-scroller-body-horizontal {
+    margin-left: 24px;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/tab/Bar.scss:506 */
+.x-tab-bar-plain.x-tab-bar-tab-venta-vertical-scroller .x-box-scroller-body-vertical {
+    margin-top: 16px;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/tab/Bar.scss:511 */
+.x-tab-bar-plain .x-box-scroller-tab-bar-tab-venta {
+    color: #919191;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/tab/Bar.scss:559 */
+.x-tab-bar-tab-venta-top .x-box-scroller-tab-bar-tab-venta {
+    margin-top: -8px;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/tab/Bar.scss:563 */
+.x-tab-bar-tab-venta-right .x-box-scroller-tab-bar-tab-venta {
+    margin-left: -16px;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/tab/Bar.scss:567 */
+.x-tab-bar-tab-venta-bottom .x-box-scroller-tab-bar-tab-venta {
+    margin-top: -16px;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/tab/Bar.scss:571 */
+.x-tab-bar-tab-venta-left .x-box-scroller-tab-bar-tab-venta {
+    margin-left: -8px;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/tab/Bar.scss:580 */
+.x-box-scroller-tab-bar-tab-venta {
+    background-color: #ff5252;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/tab/Bar.scss:586 */
+.x-box-scroller-tab-bar-tab-venta .x-ie8 .x-box-scroller-plain {
+    background-color: #fff;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-tab-bar-tab-venta-top:before {
+    /*<if slicer>*/
+    display: none;
+    content: "x-slicer:, stretch:bottom" !important;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-tab-bar-tab-venta-bottom:before {
+    /*<if slicer>*/
+    display: none;
+    content: "x-slicer:, stretch:top" !important;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-tab-bar-tab-venta-left:before {
+    /*<if slicer>*/
+    display: none;
+    content: "x-slicer:, stretch:right" !important;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-tab-bar-tab-venta-right:before {
+    /*<if slicer>*/
+    display: none;
+    content: "x-slicer:, stretch:left" !important;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/form/field/Text.scss:201 */
+.x-form-text-field-body-datefield-sistema {
+    min-width: 170px;
+    max-width: 170px;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/form/field/Text.scss:221 */
+.x-form-trigger-wrap-datefield-sistema {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #fff;
+    border-radius: 10px;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/form/field/Text.scss:229 */
+.x-form-trigger-wrap-datefield-sistema.x-form-trigger-wrap-focus {
+    border-color: #fff;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/form/field/Text.scss:233 */
+.x-form-trigger-wrap-datefield-sistema.x-form-trigger-wrap-invalid {
+    border-color: #cf4c35;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/form/field/Text.scss:258 */
+.x-form-text-datefield-sistema {
+    color: #404040;
+    padding: 5px 10px 4px;
+    background-color: #e4e4e7;
+    border-radius: 10px;
+    font: 400 15px/34px 'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif;
+    min-height: 43px;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/form/field/Text.scss:272 */
+.x-ie8 .x-form-text-datefield-sistema {
+    min-height: 34px;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/form/field/Text.scss:278 */
+.x-form-text-datefield-sistema.x-form-textarea {
+    line-height: 23px;
+    min-height: 92px;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/form/field/Text.scss:283 */
+.x-ie8 .x-form-text-datefield-sistema.x-form-textarea {
+    min-height: 83px;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/form/field/Text.scss:290 */
+.x-form-text-datefield-sistema.x-form-text-file {
+    color: grey;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/form/field/Text.scss:295 */
+.x-placeholder-label-datefield-sistema {
+    padding: 5px 10px 4px;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/form/field/Text.scss:299 */
+.x-form-empty-field-datefield-sistema + .x-placeholder-label-datefield-sistema {
+    color: grey;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/form/field/Text.scss:304 */
+.x-form-text-datefield-sistema:-ms-input-placeholder {
+    color: grey;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/form/field/Text.scss:308 */
+.x-form-invalid-field-datefield-sistema {
+    background-color: #fff;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/form/field/Text.scss:319 */
+.x-form-trigger-datefield-sistema {
+    width: 32px;
+    font: 16px/43px FontAwesome;
+    background: #fff;
+    color: #919191;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:126 */
+.x-form-trigger-datefield-sistema:before {
+    content: "\f0d7";
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/form/field/Text.scss:342 */
+.x-form-trigger-datefield-sistema.x-form-trigger-over {
+    background-position: -32px center;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/form/field/Text.scss:348 */
+.x-form-trigger-datefield-sistema.x-form-trigger-over.x-form-trigger-focus {
+    background-position: -128px center;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/form/field/Text.scss:353 */
+.x-form-trigger-datefield-sistema.x-form-trigger-focus {
+    background-position: -96px center;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/form/field/Text.scss:362 */
+.x-form-trigger.x-form-trigger-datefield-sistema.x-form-trigger-click {
+    background-position: -64px center;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/form/field/Text.scss:371 */
+.x-textfield-datefield-sistema-cell > .x-grid-cell-inner {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/form/field/Text.scss:201 */
+.x-form-text-field-body-textfield-filtro {
+    min-width: 170px;
+    max-width: 170px;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/form/field/Text.scss:221 */
+.x-form-trigger-wrap-textfield-filtro {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #fff;
+    border-radius: 10px;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/form/field/Text.scss:229 */
+.x-form-trigger-wrap-textfield-filtro.x-form-trigger-wrap-focus {
+    border-color: #fff;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/form/field/Text.scss:233 */
+.x-form-trigger-wrap-textfield-filtro.x-form-trigger-wrap-invalid {
+    border-color: #cf4c35;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/form/field/Text.scss:258 */
+.x-form-text-textfield-filtro {
+    color: #404040;
+    padding: 5px 10px 4px;
+    background-color: #e4e4e7;
+    border-radius: 10px;
+    font: 400 15px/34px 'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif;
+    min-height: 43px;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/form/field/Text.scss:272 */
+.x-ie8 .x-form-text-textfield-filtro {
+    min-height: 34px;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/form/field/Text.scss:278 */
+.x-form-text-textfield-filtro.x-form-textarea {
+    line-height: 23px;
+    min-height: 92px;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/form/field/Text.scss:283 */
+.x-ie8 .x-form-text-textfield-filtro.x-form-textarea {
+    min-height: 83px;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/form/field/Text.scss:290 */
+.x-form-text-textfield-filtro.x-form-text-file {
+    color: grey;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/form/field/Text.scss:295 */
+.x-placeholder-label-textfield-filtro {
+    padding: 5px 10px 4px;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/form/field/Text.scss:299 */
+.x-form-empty-field-textfield-filtro + .x-placeholder-label-textfield-filtro {
+    color: grey;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/form/field/Text.scss:304 */
+.x-form-text-textfield-filtro:-ms-input-placeholder {
+    color: grey;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/form/field/Text.scss:308 */
+.x-form-invalid-field-textfield-filtro {
+    background-color: #fff;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/form/field/Text.scss:319 */
+.x-form-trigger-textfield-filtro {
+    width: 32px;
+    font: 16px/43px FontAwesome;
+    background: #fff;
+    color: #919191;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:126 */
+.x-form-trigger-textfield-filtro:before {
+    content: "\f0d7";
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/form/field/Text.scss:342 */
+.x-form-trigger-textfield-filtro.x-form-trigger-over {
+    background-position: -32px center;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/form/field/Text.scss:348 */
+.x-form-trigger-textfield-filtro.x-form-trigger-over.x-form-trigger-focus {
+    background-position: -128px center;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/form/field/Text.scss:353 */
+.x-form-trigger-textfield-filtro.x-form-trigger-focus {
+    background-position: -96px center;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/form/field/Text.scss:362 */
+.x-form-trigger.x-form-trigger-textfield-filtro.x-form-trigger-click {
+    background-position: -64px center;
+}
+/* C:/Users/juan carlos/Desktop/isamservicio/admin/ext/classic/theme-neutral/sass/src/form/field/Text.scss:371 */
+.x-textfield-textfield-filtro-cell > .x-grid-cell-inner {
+    padding-top: 0;
+    padding-bottom: 0;
+}
