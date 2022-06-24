@@ -65,6 +65,11 @@ Ext.define('backoffice.view.producto.FormProducto',{
                     itemId : 'idproduct'
                 },
                 {
+                    xtype : 'hiddenfield',
+                    name  : 'idproductsuplier',
+                    itemId : 'idproductsuplier'
+                },
+                {
                     xtype: 'label',
                     text: 'Descripcion',
                     flex: 1,
@@ -225,11 +230,11 @@ Ext.define('backoffice.view.producto.FormProducto',{
 
             items: [{
                 boxLabel: 'ACTIVO',
-                inputValue: 1,
+                inputValue: 0,
                 checked: true
             }, {
                 boxLabel: 'INACTIVO',
-                inputValue: 0
+                inputValue: 1
             }]
         };
     },

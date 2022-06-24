@@ -23,9 +23,10 @@ Ext.define('backoffice.view.producto.ListadoProductoController', {
       function (btn) {
         if (btn === 'yes') {
           let _record = grid.getStore().getAt(rowIndex);
+          console.log(_record);
           let _url = Ext.manifest.api + 'product/' + _record.get('idproduct');
           _record.set("enable", 1);
-          let _resp = tools.Util.getAjaxOnly(_record.data
+          tools.Util.getAjaxOnly({"enable":1}
             , _url, 'DELETE');
           let _store = tools.Util.getById('dgvProducto').getStore();
           _store.load();

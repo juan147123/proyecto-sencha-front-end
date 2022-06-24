@@ -2,7 +2,7 @@ Ext.define('backoffice.model.Product', {
     extend: 'Ext.data.Model',
     alias : 'modelProduct',
     fields: [
-        { name : "idproduct ", type : 'int'},
+        { name : "idproduct", type : 'int'},
         { name : "description", type : 'string'},
         { name : "priceunit", type : 'float'},
         { name : "stock ", type : 'int'},
