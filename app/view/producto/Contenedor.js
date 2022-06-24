@@ -1,17 +1,17 @@
 
-Ext.define('backoffice.view.descuento.Contenedor',{
+Ext.define('backoffice.view.producto.Contenedor',{
     extend: 'Ext.panel.Panel',
-    xtype : 'descuento',
+    xtype : 'producto',
     requires: [
-        'backoffice.view.descuento.ContenedorController',
-        'backoffice.view.descuento.ContenedorModel',
-        'backoffice.view.descuento.ListadoDescuento',
-        'backoffice.view.descuento.FormDescuento'
+        'backoffice.view.producto.ContenedorController',
+        'backoffice.view.producto.ContenedorModel',
+        'backoffice.view.producto.ListadoProducto',
+        'backoffice.view.producto.FormProducto'
     ],
 
-    controller: 'descuento-contenedor',
+    controller: 'producto-contenedor',
     viewModel: {
-        type: 'descuento-contenedor'
+        type: 'producto-contenedor'
     },
 
     layout: {
@@ -39,8 +39,7 @@ Ext.define('backoffice.view.descuento.Contenedor',{
     _contenedor:function(){
         return   {
             xtype: 'container',
-            itemId: 'panelDescuento',
-            //margin: '0 20 20 0',
+            itemId: 'panelProducto',
             flex: 1,
             layout: {
                 type : 'card',
@@ -56,12 +55,12 @@ Ext.define('backoffice.view.descuento.Contenedor',{
     },
     _listado:function(){
         return {
-            xtype :'listado-descuento'
+            xtype :'listado-producto'
         };
     },
     _registro:function(){
         return {
-            xtype : 'form-descuento'
+            xtype : 'form-producto'
         };
     }
 });

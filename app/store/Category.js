@@ -1,14 +1,14 @@
-Ext.define('backoffice.store.Discount', {
+Ext.define('backoffice.store.Category', {
     extend  : 'Ext.data.Store',
-    storeId : 'stDiscount',
-    model   : 'backoffice.model.Discount',
+    storeId : 'stCategory',
+    model   : 'backoffice.model.Category',
     pageSize: 100,
     proxy: {
         type: 'rest',
-        url: Ext.manifest.api +  'discount',
+        url: Ext.manifest.api +  'category',
         headers: {
             'Content-Type': "application/json",
-            'Authorization' : ''
+           /*  'Authorization' : '' */
         },
         reader: {
             type: 'json',

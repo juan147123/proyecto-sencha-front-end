@@ -12,22 +12,23 @@ Ext.define('backoffice.Application', {
         }
     },
     models : [
-        'Spent',
-        'Discount'
+        'Product',
+        'Category',
+        'Brand',
+        'Supplier'
     ],
     views :[
         //TODO: CORE
-
-        //FATURACION
-        'backoffice.view.gasto.Contenedor',
-        'backoffice.view.descuento.Contenedor',
+        'backoffice.view.producto.Contenedor'
         
     ],
     stores: [
         
        'NavigationTree',
-       'Spent',
-       'Discount',
+       'Product',
+       'Category',
+       'Brand',
+       'Supplier'
        
        
     ],

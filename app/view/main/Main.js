@@ -86,7 +86,7 @@ Ext.define('backoffice.view.main.Main', {
                             },
                             items: [
                                 {
-                                    xtype: 'gastos',
+                                    xtype: 'producto',
                                     routeId: 'dashboardini',
                                     hideMode: 'offset'
                                 }

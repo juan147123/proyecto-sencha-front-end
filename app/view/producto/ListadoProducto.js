@@ -1,14 +1,14 @@
 
-Ext.define('backoffice.view.descuento.ListadoDescuento',{
+Ext.define('backoffice.view.producto.ListadoProducto',{
     extend: 'Ext.panel.Panel',
-    xtype: 'listado-descuento',
+    xtype: 'listado-producto',
 
     requires: [
-        'backoffice.view.descuento.ListadoDescuentoController',
-        'backoffice.view.descuento.ListadoDescuentoModel'
+        'backoffice.view.producto.ListadoProductoController',
+        'backoffice.view.producto.ListadoProductoModel'
     ],
 
-    controller: 'listado-descuento',
+    controller: 'listado-producto',
 
     layout: {
         type: 'responsivecolumn',
@@ -57,7 +57,7 @@ Ext.define('backoffice.view.descuento.ListadoDescuento',{
         }
     },
     _grilla: function () {
-       let store = tools.Util.getStoreById('stDiscount');
+       let store = tools.Util.getStoreById('stProduct');
        store.load();
 
         return {
@@ -73,14 +73,13 @@ Ext.define('backoffice.view.descuento.ListadoDescuento',{
                 {
                     xtype: 'grid',
                     flex: 1,
-                    itemId: 'dgvDescuento',
+                    itemId: 'dgvProducto',
                     viewConfig: {
                         preserveScrollOnRefresh: true,
                         preserveScrollOnReload: true
                     },
                     headerBorders: false,
                     rowLines: true,
-                    // scrollable: false,
                     sortableColumns: false,
                     store: store,
                     bbar: me._paginacion(),
@@ -92,8 +91,14 @@ Ext.define('backoffice.view.descuento.ListadoDescuento',{
                             width: 500,
                         },
                         {
-                            dataIndex: 'value',
-                            header: '<div>Valor</div>',
+                            dataIndex: 'priceunit',
+                            header: '<div>Precio</div>',
+                            align: 'left',
+                            width: 200,
+                        },
+                        {
+                            dataIndex: 'stock',
+                            header: '<div>Stock</div>',
                             align: 'left',
                             width: 200,
                         },
@@ -101,14 +106,7 @@ Ext.define('backoffice.view.descuento.ListadoDescuento',{
                             dataIndex: 'enabletext',
                             header: '<div>Estado</div>',
                             align: 'left',
-                            width: 100,
-                            renderer: function (value, metadata, record) {
-                                if (value === 'ACTIVO') {
-                                    return '<div class="x-status-activo">' + value + '</div>';
-                                } else {
-                                    return '<div class="x-status-inactivo">' + value + '</div>';
-                                }
-                            }
+                            width: 100
                         },
                         {
                             xtype: 'actioncolumn',
