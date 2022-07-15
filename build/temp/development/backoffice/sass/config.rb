@@ -1,1 +1,1 @@
-cache_path = 'C:\Users\juan carlos\Desktop\proyectov1\proyecto/build/.sass-cache'
+cache_path = 'C:\xampp\htdocs\coso\proyecto-sencha-front-end/build/.sass-cache'
