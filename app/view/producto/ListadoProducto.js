@@ -52,7 +52,7 @@ Ext.define('backoffice.view.producto.ListadoProducto',{
         return {
             xtype: 'container',
             userCls: 'big-100 small-100',
-            html: '<h2>Información de Desceuntos</h2>'
+            html: '<h2>Información de Productos</h2>'
 
         }
     },
